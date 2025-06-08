@@ -1,4 +1,4 @@
-section .data 
+section .data  
     response db "HTTP/1.0 200 OK",13,10,"Content-Type: text/plain",13,10,13,10,"Hello from ASM!",10
     response_len equ $ - response
 
